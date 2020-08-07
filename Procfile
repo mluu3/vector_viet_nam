@@ -1,0 +1,1 @@
+web: vector-web-setup serve

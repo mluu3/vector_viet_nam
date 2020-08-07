@@ -1,0 +1,24 @@
+{
+  "name": "vector_vietnam",
+  "version": "1.0.0",
+  "description": "Demo web setup Vector",
+  "main": "web.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+	"prepare": "npm install",
+	"web-build": "bash scripts/build-web.sh",
+	"heroku-postbuild": "npm run web-build"
+  },
+  "keywords": [
+    "Vector",
+    "VietNam"
+  ],
+  "author": "minh-luu",
+  "license": "ISC",
+  "dependencies": {
+    "vector-web-setup": "^1.0.0"
+  },
+  "engines": {
+    "node": "10.x"
+  }
+}
